@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.timerLabel{
+ margin-top: 5px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:grey;
+  color: aliceblue;
+  border-radius: 5px;
+ 
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 4px 6px rgba(0,0,0,0.4);
+  padding: 1rem 0;
+
+
+}
+.stop-watch{
+  font-size: 6rem;
+  margin-right: 1rem;
+}
+
+label {
+  margin-bottom: .5rem;
+}
+input{
+  width: 100px;
+  margin-right: 1rem;
+  outline: none;
+  border: none;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0rem, 0.5rem;
+  border-radius: 5px;
+}
+
+input:hover{
+  background-color: blueviolet;
+}
+
+button{
+  margin: 0.25rem 0.125rem;
+  padding: 0.35rem 1.25rem;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 0.6px;
+  border-radius: 1rem;
+}
+
+.btn-start{
+  color: blue;
+}
+
+
+.btn-stop{
+  color: red;
+}
+
+.btn-pause{
+  color: orange;
+}
+
+.btn:hover,
+.btn-start:hover,
+.btn-stop:hover {
+  cursor: pointer;
+  box-shadow: none;
+  transition: 0.3s ease;
+  background: rgba(0, 0, 0, 0.75);
+}
